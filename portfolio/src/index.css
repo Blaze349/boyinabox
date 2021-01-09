@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'PostNoBillsJaffna';
+  src: local('PostNoBillsJaffna'), url(./fonts/PostNoBillsJaffna-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PostNoBillsColombo';
+  src: local('PostNoBillsColombo'), url(./fonts/PostNoBillsColombo-Medium.ttf) format('truetype'); 
+}
+
+.fnt-postjaffna {
+    font-family: 'PostNoBillsJaffna';
+}
+.fnt-postcolombo {
+    font-family: 'PostNoBillsColombo';
+}
+.fnt-jetbrains {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.is-4rem {
+    font-size: 4rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
