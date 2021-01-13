@@ -26,34 +26,37 @@ class HomeComponent extends React.Component {
 
                                 </div>
 
-                                <h1 className="fnt-postjaffna has-text-centered mt-3  is-4rem is-size-2-mobile mb-6"> BOY BREAKS BOX </h1>
+                                <h1 className="fnt-postjaffna has-text-centered mt-3 is-4rem is-size-2-mobile"> BOY BREAKS BOX </h1>
 
+                                <a href="mailto:ebenezerajaero@gmail.com">
+                                <h3 className="fnt-jetbrains has-text-centered mb-6 is-size-6"> contact me </h3>
+                                </a>
                                 <div className="has-text-centered pt-5 mt-6">
                                     <Link className="mx-5" to="/georgia">
-                                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="inner" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle r="18.5" transform="matrix(1 0 0 -1 18.5 18.5)" fill="#FF6D6D"/>
                                         </svg>
                                     </Link>
                                     <Link className="mx-5" to="/pokemon">
-                                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="inner" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle r="18.5" transform="matrix(1 0 0 -1 18.5 18.5)" fill="#FFD875"/>
 </svg>
                                     </Link>
                                     <Link className="mx-5" to="/chip">
-                                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="inner" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle r="18.5" transform="matrix(1 0 0 -1 18.5 18.5)" fill="#6DA8FF"/>
 </svg>
                                     
                                     </Link>
                                     <Link className="mx-5" to="/ethan">
-                                        <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="inner" width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 <ellipse rx="19" ry="18.5" transform="matrix(1 0 0 -1 19 18.5)" fill="#936DFF"/>
 </svg>
 
                                    
                                     </Link>
                                     <Link className="mx-5" to="/cox">
-                                        <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="inner" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle r="18.5" transform="matrix(1 0 0 -1 18.5 18.5)" fill="#7DFFB1"/>
 </svg>
                                     </Link>
@@ -61,7 +64,7 @@ class HomeComponent extends React.Component {
 
                                 </div>
 
-                                <h3 className="fnt-jetbrains has-text-centered mt-5 mb-6 is-size-6"> PRESS TO PLAY </h3>
+                                <h3 className="fnt-jetbrains has-text-centered mt-6 mb-6 is-size-6"> PRESS TO PLAY </h3>
                             </div>
                         </div>
                     </div>

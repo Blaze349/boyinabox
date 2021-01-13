@@ -1,4 +1,6 @@
 import React from 'react' 
+
+
 import '../index.css'
 import pic from '../images/pokemon game.png'
 import { Link } from 'react-router-dom';
@@ -18,7 +20,7 @@ class ChipComponent extends React.Component {
                                     <h1 className="fnt-postjaffna has-text-centered mt-6 is-size-1 is-size-2-mobile">Bliss OS </h1>
 
                                 <h3 className="fnt-jetbrains has-text-centered mt-5 is-size-6">
-                                    Arch Linux Distribution - <a href="#"> Download Here </a>
+                                    Arch Linux Distribution in alpha - Beta Release 2021 
                                     </h3>
 
                                 </div>
@@ -27,7 +29,7 @@ class ChipComponent extends React.Component {
                                     <h1 className="fnt-postjaffna has-text-centered mt-6 is-size-1 is-size-2-mobile">Chip-8 Emulator </h1>
 
                                     <h3 className="fnt-jetbrains has-text-centered mt-5 is-size-6">
-                                        Coded in C++ - <a href="#"> Download Here </a>
+                                        Coded in C++ - <a href="https://github.com/Blaze349/ubiquitous-octo-spoon" target="_blank" rel="noopener noreferrer"> Download Here </a>
                                     </h3>
 
                                 </div>

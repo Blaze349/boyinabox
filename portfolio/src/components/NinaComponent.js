@@ -25,8 +25,7 @@ class NinaComponent extends React.Component {
                             </h3>
                                 </div>
                                 <div className="column">
-
-                                    <figure className="image mx-6">
+                                    <figure className="image px-6 mx-6">
                                         <img src={pic}/>
                                     </figure>
                                 </div>

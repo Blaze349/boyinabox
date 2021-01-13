@@ -1,12 +1,12 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
 } from "react-router-dom";
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import HomeComponent from './components/HomeComponent.js'
 import NinaComponent from './components/NinaComponent.js'
 import PokemonComponent from './components/PokemonComponent.js'
@@ -18,7 +18,7 @@ function App() {
     return (
         <Router>
             <div className="container">
-                <h1 className="fnt-jetbrains is-size-6 has-text-centered mt-3"> BENNY AJAERO - PORTFOLIO </h1>
+                <h1 className="fnt-jetbrains is-size-6 has-text-centered mt-3 pt-1"> BENNY AJAERO - PORTFOLIO </h1>
                 <Switch> 
                     <Route exact path="/">
                         <HomeComponent/>
